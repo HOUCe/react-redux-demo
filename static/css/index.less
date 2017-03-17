@@ -1,0 +1,375 @@
+body,img,p,ul,ol,li,h1,h4,h3,h2,section,article,span,dl,dt,dd,form{
+    padding:0;
+    margin:0;
+    word-break:break-all;
+}
+
+body,h1,h2,h3,h4{
+    font-size:1em;
+}
+
+body{
+   -webkit-text-size-adjust:none;
+   background-color:#f4f4f4;
+}
+
+a{
+    text-decoration:none;
+    outline:none;
+    color:#565656;
+}
+
+ul,ol,li{
+    list-style:none;
+}
+
+img{
+    border:0
+}
+
+em{
+    font-style:normal;
+}
+
+/* usefull style */
+.hide {
+    display: none;
+}
+
+.fr{
+    float:right;
+}
+
+.tc{
+    text-align: center;
+}
+.di{
+    display:inline-block;
+}
+.grey{
+    color:#838383;
+}
+
+.mt10{
+    margin-top:10px;
+}
+
+.green{
+    color:#399e0c;
+}
+
+.clr:after {
+    display: block;
+    content: '.';
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* common background-image */
+.mn-bg{
+    background:url(wap-exp-bg.png) no-repeat;
+    background-size: 28px 300px;
+}
+
+.x-bg{
+    background:-webkit-gradient(linear,left top,left bottom,from(#fafafa) ,to(#f4f4f4));
+}
+
+.h-title{
+    padding-left: 10px;
+    line-height: 29px;
+    border-bottom: 1px solid #D1D1D1;
+    border-top: 1px solid #ebebeb;
+    color: #999;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+    box-shadow: inset 0 1px 0 #fff;
+    background:-webkit-gradient(linear,left top,left bottom,from(#eee) ,to(#e2e2e2));
+}
+
+/* button style */
+.fillet-btn{
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+    border: 1px solid #c8c8c8;
+    padding:0 16px;
+    border-radius: 6px;
+    background:-webkit-gradient(linear,left top,left bottom,from(#f7f7f9) ,to(#eff0f2));
+}
+
+/*.ui-refresh,*/
+.ui-refresh-down,
+.long-btn{
+    height:38px;
+    line-height:38px;
+    display:block;
+    /*box-shadow:inset 0 1px 3px #fff;*/
+    /*-webkit-box-shadow:inset 0 1px 3px #fff;*/
+    /*border:1px solid #ccc;*/
+    /*border-radius:6px;*/
+    /*background-color:#f2f2f2;*/
+}
+
+/* Navigation Part*/
+/*.wrapper{*/
+    /*padding-top:44px;*/
+/*}*/
+#navigation{
+    /*position:fixed;*/
+    /*width:100%;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*z-index:100000;*/
+    position: relative;
+    background:#65666d;
+    border-top:1px solid #5e6163;
+    /*background:#f40600;*/
+    /*border-top:1px solid #d50005;*/
+    min-height:44px;
+}
+
+.nav-logo{
+    background:url(logo.png) no-repeat center center !important;
+    background-size:86px 30px !important;
+}
+
+#navigation h1{
+    position:relative;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    line-height:44px;
+    height:44px;
+    /*border-bottom:1px solid #b1b2b4;*/
+    /*border-bottom:1px solid #f40600;*/
+}
+
+/* double borders */
+.db-border li:first-child{border-top:none;}
+.db-border li{
+    border-top:1px solid #fff;
+    border-bottom:1px solid #e7e7e7;
+}
+
+/* originExp & goodExp icos */
+.origin-ico,
+.good-ico {
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 3px;
+    margin-top: -6px;
+    background-color: #4fca1e;
+    border: 1px solid #44b517;
+}
+.good-ico {
+    border-color: #ef4f14;
+    background-color: #ff6a28;
+}
+
+#navigation .search {
+    box-shadow: 0 0 3px #ccc;
+}
+
+/*background-color*/
+.bc{
+    background-color:#565b56;
+}
+
+.empty{
+    line-height: 5;
+    text-align: center;
+}
+
+.feed-list {
+    padding: 5px 12px;
+}
+
+.feed-list li {
+    width: 33.3%;
+    float: left;
+}
+
+.feed-list span {
+    display: block;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 3px 8px;
+    font-size: 14px;
+}
+
+.feed-list .disable {
+    background-color: #efefef;
+}
+
+h2 {
+    color: #a5adaf;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+h2 span {
+    float: right;
+    color: #390;
+}
+
+.selected-list {
+    background-color: #f0f0f0;
+    border: 1px solid #e1e1e1;
+    margin: 0 8px 8px;
+    height: 148px;
+    position: relative;
+}
+
+.selected-list .feed-list {
+    padding: 5px 5px 0;
+    right: 0;
+}
+
+.feed-list .empty-list {
+    background: url(./fd-usr.png) no-repeat;
+    height: 40px;
+    line-height: 20px;
+    width: 150px;
+    padding-left: 48px;
+    margin: 52px auto 0;
+    color: #ced2d3;
+    background-size: 38px 38px;
+    float: none;
+}
+
+.selected-list li {
+    overflow: hidden;
+}
+
+.selected-list .feed-list span {
+    padding-right: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.selected-list .feed-list a {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(./del.png) no-repeat center center;
+    background-size: 12px 12px;
+    display: inline-block;
+    top: 9px;
+    right: 1px;
+}
+
+.selected-list .feed-list a:hover {
+    background-color: #efefef;
+}
+
+.main {
+    min-height: 300px;
+}
+
+
+.feed-list {
+    padding: 5px 12px;
+}
+
+.feed-list li {
+    width: 33.3%;
+    float: left;
+}
+
+.feed-list span {
+    display: block;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 3px 8px;
+    font-size: 14px;
+}
+
+.feed-list .disable {
+    background-color: #efefef;
+}
+
+h2 {
+    color: #a5adaf;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+
+h2 span {
+    float: right;
+    color: #390;
+}
+
+.selected-list {
+    background-color: #f0f0f0;
+    border: 1px solid #e1e1e1;
+    margin: 0 8px 8px;
+    height: 148px;
+    position: relative;
+}
+
+.selected-list .feed-list {
+    padding: 5px 5px 0;
+    right: 0;
+}
+
+.feed-list .empty-list {
+    background: url(./fd-usr.png) no-repeat;
+    height: 40px;
+    line-height: 20px;
+    width: 150px;
+    padding-left: 48px;
+    margin: 52px auto 0;
+    color: #ced2d3;
+    background-size: 38px 38px;
+    float: none;
+}
+
+.selected-list li {
+    overflow: hidden;
+}
+
+.selected-list .feed-list span {
+    padding-right: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.selected-list .feed-list a {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(./del.png) no-repeat center center;
+    background-size: 12px 12px;
+    display: inline-block;
+    top: 9px;
+    right: 1px;
+}
+
+.selected-list .feed-list a:hover {
+    background-color: #efefef;
+}
+
+.main {
+    min-height: 300px;
+}
+
+
